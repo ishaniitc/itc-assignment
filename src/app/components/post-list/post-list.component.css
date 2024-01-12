@@ -1,0 +1,51 @@
+/* post-list.component.css */
+.post-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .author {
+    color: #555;
+  }
+  
+  .post-content {
+    margin-top: 10px;
+  }
+  
+  .content {
+    color: #333;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .date {
+    color: #777;
+  }
+  
+  .details-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    margin-top: 15px;
+  }
+  

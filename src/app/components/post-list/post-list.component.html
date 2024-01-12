@@ -1,0 +1,17 @@
+<div class="post-container" *ngFor="let post of blogPosts">
+  <div class="post-header">
+    <h2>{{ post.title }}</h2>
+    <p class="author">Author: {{ post.author }}</p>
+  </div>
+
+  <div class="post-content">
+    <p class="content">{{ post.content }}</p>
+  </div>
+
+  <div class="post-footer">
+    <p class="date">Date: {{ post.date | date }}</p>
+    <button class="details-button" (click)="navigateToPostDetails(post)">View Details</button>
+  </div>
+
+  <hr class="divider" />
+</div>
